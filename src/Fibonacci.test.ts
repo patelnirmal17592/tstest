@@ -33,6 +33,21 @@ describe("Fibonacci Tests", () => {
 
     expect(actual).toBe(expected);
   });
+  
+  //Vien Test
+  it ("when 9 return 8", () =>{
+
+	//Arrange
+	const input = 9;
+	const expected = 8;
+
+	//Act
+	const actual: number = Fibonacci(input);
+
+	//Assert
+	expect(actual).toBe(expected); 
+
+})
 });
 
 // import Fibonacci from './Fibonacci';
