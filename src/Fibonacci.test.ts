@@ -14,6 +14,19 @@ describe('Fibonacci Tests', () => {
         //Assert
         expect(actual).toBe(expected);
     })
+
+    //Nirmal's test
+
+    it('when 3 return 2', () => {
+
+        const input = 3;
+        const expected = 2;
+
+        const actual:number = Fibonacci(input);
+
+        expect(actual).toBe(expected);
+        
+    })
 })
 
 // import Fibonacci from './Fibonacci';
