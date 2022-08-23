@@ -1,5 +1,9 @@
 {
   "projects": {
+<<<<<<< HEAD
     "default": "cicdexercise"
+=======
+    "default": "first-project-a8744"
+>>>>>>> 327ee24b8e6aceb65b18dfad313487cc2a771d7b
   }
 }
