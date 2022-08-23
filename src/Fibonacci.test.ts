@@ -23,6 +23,19 @@ describe("Fibonacci Tests", () => {
 
     expect(actual).toBe(expected);
   });
+        const actual:number = Fibonacci(input);
+
+        expect(actual).toBe(expected);
+        
+    })
+
+    //Ranju test
+    it('when 21 return 13', () => {
+        const input = 21;
+        const expected = 13;
+        const actual:number = Fibonacci(input);
+        expect(actual).toBe(expected);
+    })
 
   //Brandon's test
   it("when 15 return 3", () => {
@@ -50,10 +63,9 @@ describe("Fibonacci Tests", () => {
     })
 
     //Ranju test
-    it('when 21 return 13', () => {
+    it('when 50 return 13', () => {
         const input = 21;
         const expected = 3;
         const actual:number = Fibonacci(input);
         expect(actual).toBe(expected);
-    })
 });
