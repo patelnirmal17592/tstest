@@ -17,10 +17,10 @@ describe('Fibonacci Tests', () => {
 
     //Nirmal's test
 
-    it('when 3 return 2', () => {
+    it('when 3 return 3', () => {
 
-        const input = 3;
-        const expected = 2;
+        const input = 10;
+        const expected = 3;
 
         const actual:number = Fibonacci(input);
 
