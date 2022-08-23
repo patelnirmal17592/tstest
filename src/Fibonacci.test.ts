@@ -1,61 +1,49 @@
-import Fibonacci from './Fibonacci'
+import Fibonacci from "./Fibonacci";
 
-describe('Fibonacci Tests', () => {
+describe("Fibonacci Tests", () => {
+  it("when 5 return 3", () => {
+    //Arrange
+    const input = 5;
+    const expected = 3;
 
-    it('when 5 return 3', () => {
+    //Act
+    const actual: number = Fibonacci(input);
 
-        //Arrange
-        const input = 5;
-        const expected = 3;
+    //Assert
+    expect(actual).toBe(expected);
+  });
 
-        //Act
-        const actual: number = Fibonacci(input);
+  //Nirmal's test
 
-        //Assert
-        expect(actual).toBe(expected);
-    })
+  it("when 3 return 2", () => {
+    const input = 3;
+    const expected = 2;
 
-    //Nirmal's test
+    const actual: number = Fibonacci(input);
 
-    it('when 3 return 3', () => {
+    expect(actual).toBe(expected);
+  });
 
-        const input = 10;
-        const expected = 3;
+  //Brandon's test
+  it("when 15 return 3", () => {
+    const input = 15;
+    const expected = 3;
 
-        const actual:number = Fibonacci(input);
+    const actual: number = Fibonacci(input);
 
-        expect(actual).toBe(expected);
-        
-    })
-})
+    expect(actual).toBe(expected);
+  });
 
-// import Fibonacci from './Fibonacci';
+  //Vien Test
+  it("when 9 return 8", () => {
+    //Arrange
+    const input = 9;
+    const expected = 8;
 
-// describe('Fibonacci Tests', () => {
+    //Act
+    const actual: number = Fibonacci(input);
 
-//     it("when 5 return 3", () => {
-
-//         //Arrange
-//         const input = 5;
-//         const expected = 3;
-//         //Act
-
-//         const actual: number = Fibonacci(input);
-
-//         //Assert
-//         expect(actual).toBe(expected);
-//     })
-
-//     it("when 6 return 8", () => {
-
-//         //Arrange
-//         const input = 6;
-//         const expected = 8;
-//         //Act
-
-//         const actual: number = Fibonacci(input);
-//         //Assert
-
-//         expect(actual).toBe(expected);
-//     })
-// })
+    //Assert
+    expect(actual).toBe(expected);
+  });
+});
